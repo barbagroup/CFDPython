@@ -18,3 +18,4 @@ Lessons
 * [11 - Defining Function in Python](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/11%2520-%2520Defining%2520Function%2520in%2520Python.ipynb)
 * [12 - Step 9](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/12%2520-%2520Step%25209.ipynb)
 * [13 - Step 10](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/13%2520-%2520Step%252010.ipynb)
+* [14 - Optimizing Loops with Numba](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/14%2520-%2520Optimizing%2520Loops%2520with%2520Numba.ipynb)
