@@ -1,5 +1,7 @@
-
 Welcome to the CFD Online Lesson Repository
+
+Spanish version now available [here](https://bitbucket.org/franktoffel/cfd-python-class-es).
+Thanks to F.J. Navarro-Brull and [CAChemE.org](http://www.cacheme.org/)
 
 Lessons
 -------
