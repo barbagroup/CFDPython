@@ -1,10 +1,9 @@
-
 Welcome to the CFD Online Lesson Repository
 
 Lessons
 -------
 
-* [00 - Quick Python Intro](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/00%2520-%2520Quick%2520Python%2520Intro.ipynb)
+* [00 - Quick Python Intro](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/00%20-%20Quick%20Python%20Intro.ipynb)
 * [01 - Step 1](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/01%2520-%2520Step%25201.ipynb)
 * [02 - Step 2](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/02%2520-%2520Step%25202.ipynb)
 * [03 - CFL Condition](http://nbviewer.ipython.org/urls/bitbucket.org/cfdpython/cfd-python-class/raw/master/lessons/03%2520-%2520CFL%2520Condition.ipynb)
