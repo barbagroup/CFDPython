@@ -32,7 +32,7 @@ def notebooks():
 
 def lesson_name(filename):
     with open(filename) as fo:
-        return json.load(fo)['metadata']['name']
+        return json.load(fo)['metadata']['name'][5:]
 
 
 def nb_url(filename):
