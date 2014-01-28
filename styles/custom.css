@@ -57,7 +57,8 @@
                 },
                 displayAlign: 'center', // Change this to 'center' to center equations.
                 "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 4}}
+                    styles: {'.MathJax_Display': {"margin": 4}}, 
+                    scale: 125
                 }
         });
 </script>
