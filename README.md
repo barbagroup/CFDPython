@@ -1,13 +1,10 @@
 Bievenido al repositorio online de mecánica de fluidos computacional ([CFD](http://es.wikipedia.org/wiki/Mec%C3%A1nica_de_fluidos_computacional))
 
-Estos notebooks forman parte del primer módulo interactivo online de [CFD con Python](https://bitbucket.org/cfdpython/cfd-python-class) impartido por la profesora [Lorena A. Barba](http://lorenabarba.com/) y llamado **12 Steps to Navier-Stokes.**.
-
+Estos notebooks forman parte del primer módulo interactivo online de [CFD con Python](https://github.com/barbagroup/CFDPython/) impartido por la profesora [Lorena A. Barba](http://lorenabarba.com/) y llamado **12 Steps to Navier-Stokes.**.
 Texto y código sujeto bajo Creative Commons Attribution license, CC-BY-SA. (c) Original por Lorena A. Barba y Gilbert Forsyth en 2013, traducido por F.J. Navarro-Brull para [CAChemE.org](http://www.cacheme.org/)
 
 [@LorenaABarba](https://twitter.com/LorenaABarba) - 
 [@CAChemEorg](https://twitter.com/cachemeorg)
-
-
 
 Lecciones
 -------
