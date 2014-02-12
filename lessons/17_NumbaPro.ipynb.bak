@@ -61,7 +61,7 @@
       "\n",
       "    ###Run through nt timesteps and plot/animate each step\n",
       "    for n in range(nt): ##loop across number of time steps\n",
-      "        un[:] = u[:]\n",
+      "        un = u.copy()\n",
       "        u[1:] = -un[1:]*dt/dx*(un[1:]-un[:-1])+un[1:]\n",
       "    \n",
       "    return u"
@@ -209,7 +209,7 @@
       "    #plt.plot(numpy.linspace(0,xmax,nx),u[:],marker='o',lw=2)\n",
       "\n",
       "    u = np.ones(nx)\n",
-      "    u[:] = ui[:]\n",
+      "    u = ui.copy()\n",
       "    griddim = 320, 1\n",
       "    blockdim = 768, 1, 1\n",
       "    NonLinCudaJit_conf = NonLinCudaJit[griddim, blockdim]\n",
