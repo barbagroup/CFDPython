@@ -21,4 +21,3 @@ Lessons
 * [Optimizing Loops with Numba](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/14_Optimizing_Loops_with_Numba.ipynb)
 * [Step 11](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/15_Step_11.ipynb)
 * [Step 12](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/16_Step_12.ipynb)
-* [NumbaPro](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/17_NumbaPro.ipynb)
