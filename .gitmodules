@@ -1,0 +1,3 @@
+[submodule "JSAnimation"]
+	path = JSAnimation
+	url = https://github.com/jakevdp/JSAnimation.git
