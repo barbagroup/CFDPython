@@ -9,7 +9,7 @@ Texto y código sujeto bajo Creative Commons Attribution license, CC-BY-SA. (c) 
 Lecciones
 -------
 
-* [Introduccion rapida a Python](http://nbviewer.ipython.org/urls/github/franktoffel/CFDPython-ES/blob/master/lecciones/00_Introduccion_rapida_a_Python.ipynb
+* [Introduccion rapida a Python](http://nbviewer.ipython.org/urls/github/franktoffel/CFDPython-ES/blob/master/lecciones/00_Introduccion_rapida_a_Python.ipynb)
 * [Paso 1](http://nbviewer.ipython.org/github/franktoffel/CFDPython-ES/blob/master/lecciones/01_Paso_1.ipynb)
 * [Paso 2](http://nbviewer.ipython.org/github/franktoffel/CFDPython-ES/blob/master/lecciones/02_Paso_2.ipynb)
 * [CFL Condition](http://nbviewer.ipython.org/github/franktoffel/CFDPython-ES/blob/master/lecciones/03_CFL_Condition.ipynb)
