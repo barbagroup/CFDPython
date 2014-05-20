@@ -1,0 +1,184 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{units}
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multicol}
+
+\title{CFD Python Modules}
+
+\begin{document}
+\section*{Quick Python Intro}
+A \textit{very} quick crash-course in the basics of Python, broadly covering
+\begin{itemize}
+\item[] Libraries (NumPy and Matplotlib, specifically)
+\item[] Variables
+\item[] Whitespace
+\item[]	Array slicing and assigment
+\end{itemize}
+
+\section*{Step 1: 1-D Linear Convection}
+
+\begin{equation}
+\frac{\partial u}{\partial t} + c \frac{\partial u}{\partial x} = 0
+\end{equation}
+
+\subsection*{Math}
+This section introduces the reader to the ``parts`` of the PDE and how to discretize them.
+\begin{itemize}
+\item[] Introduce the idea of a grid
+\item[] Expand equation using the definition of a derivative
+\item[] Discretize into small chunks
+\item[] Re-arrange to solve for $u^{n+1}_i$
+\item[] Initial and boundary conditions
+\end{itemize}
+
+\subsection*{Python}
+\begin{itemize}
+\item[] Importing libraries
+\item[] Assigning variables
+\item[] Basic 2D plotting
+\item[] Simple for-loops
+\end{itemize}
+
+\vspace{.5cm}
+YouTube videos on order of convergence, truncation error, etc...
+
+\section*{Step 2: 1-D Nonlinear Convection}
+
+\begin{equation}
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = 0
+\end{equation}
+
+\subsection*{Math}
+\begin{itemize}
+\item[] Introduce non-linear PDE equation
+\item[] Expand equation using definition of derivative
+\item[] Discretize
+\item[] Solve for $u^{n+1}_i$
+\end{itemize}
+
+\section*{CFL Condition}
+A short side-trip into the CFL condition, order of convergence and blowing things up.
+
+\subsection*{Math}
+\begin{itemize}
+\item[] The Courant number
+\item[] Explanation of blow-up behavior when wave travels a distance $> dx$ during a time $dt$
+\end{itemize}
+
+\subsection*{Python}
+\begin{itemize}
+\item[] Quick introduction to defining a function to use code repeatedly
+\end{itemize}
+
+
+\section*{Step 3: 1-D Diffusion}
+
+\begin{equation}
+\frac{\partial u}{\partial t} = \nu \frac{\partial ^2 u}{\partial x^2}
+\end{equation}
+
+\subsection*{Math}
+
+\begin{itemize}
+\item[] Introduce diffusion equation
+\item[] Discretize 2nd order derivative using Taylor series expansion
+\item[] Discretize time derivative using def. of derivative
+\end{itemize}
+
+\subsection*{Python}
+
+Nothing new, still no functions being used (yet)
+
+\section*{Step 4: 1-D Burgers' Equation}
+
+\begin{equation}
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = \nu \frac{\partial ^2 u}{\partial x^2}
+\end{equation}
+
+\subsection*{Math}
+
+\begin{itemize}
+\item[] Introduce Burgers' Equation
+\item[] Note that it is combination of diffusion and non-linear convection
+\item[] Introduce different I.C. and B.C. for periodic behavior
+\begin{itemize}
+\item[] e.g. What does $u^{n}_{i+1}$ \textit{mean} at the end of the frame?
+\end{itemize}
+\end{itemize}
+
+\subsection*{Python}
+
+\begin{itemize}
+\item[] Introduce Sympy
+\begin{itemize}
+\item[] Pretty printing
+\item[] Symbolic solving of derivatives
+\item[] Usage of Lambdify to make solutions `accessible' to Numpy
+\end{itemize}
+\item[] Matplotlib
+\begin{itemize}
+\item[] Plotting multiple lines per plot
+\item[] Setting line styles
+\item[] Legends
+\end{itemize}
+\end{itemize}
+
+\section*{Array Operations}
+Another brief interlude to introduce handling calculations with array operations instead of iterating over the entire array.
+
+\subsection*{Python}
+
+\begin{itemize}
+\item[] Array operations, slicing and copying
+\item[] Note about using the  \verb|%%timeit| magic function to compare performance
+\end{itemize}
+
+\section*{Step 5: 2D Linear Convection}
+
+\subsection*{Math}
+\begin{itemize}
+\item[] Introduction to 2D grid
+\item[] Extension of current discretization rules into $i,j$ flatland
+\item[] Discretize 2D equation and solve for unknown
+\end{itemize}
+
+\subsection*{Python}
+
+\begin{itemize}
+\item[] meshgrid
+\item[] Axes3D
+\item[] surf and wireframe plots
+\item[] Demonstration that nested for-loop results and array operations results are the same
+\end{itemize}
+
+\section*{Step 6: 2D Nonlinear Convection}
+
+\subsection*{Math}
+\begin{itemize}
+\item[] Introduction of coupled PDEs
+\item[] Discretization of two equations
+\item[] Solving for both $u^{n+1}_{i,j}$ and $v^{n+1}_{i,j}$
+\end{itemize}
+
+\section*{Step 7: 2D Diffusion}
+
+\subsection*{Math}
+\begin{itemize}
+\item[] Introduction to 2D diffusion equation 
+\item[] Discretization of equation, etc...
+\end{itemize}
+
+\subsection*{Python}
+Nothing new, although functions are used to display results (probably should switch this over to \texttt{jsanim})
+
+\section*{Step 8: 2D Burgers'}
+
+\end{document}
