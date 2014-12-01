@@ -9,7 +9,7 @@ Commons Attribution license. You are free:
 Under the following conditions:
 
 * Attribution---You must attribute the work using "Copyright (c)
-  CFD Python" (but not in any way that suggests that we
+  Barbagroup" (but not in any way that suggests that we
   endorse you or your use of the work).  Where practical, you must
   also include a hyperlink to https://github.com/barbagroup/CFDPython.
 
@@ -31,6 +31,8 @@ For the full legal text of this license, please see:
   http://creativecommons.org/licenses/by/3.0/legalcode
 
 Software
+
+"Copyright (c) 2013 Barbagroup"
 
 Except where otherwise noted, all software is made available under the
 FSF-approved MIT license (http://directory.fsf.org/wiki/License:X11):
