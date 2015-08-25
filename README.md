@@ -37,6 +37,15 @@ pip install numpy scipy sympy
 ```
 
 
+###Running a notebook server
+
+Once jupyter is installed, just open up a terminal and then run 
+
+```Bash
+jupyter notebook
+```
+
+to start up a jupyter session in your browser!
 
 Lessons
 -------
