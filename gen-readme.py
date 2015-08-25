@@ -3,7 +3,7 @@
 
 
 from glob import glob
-from urllib import quote
+from urllib.parse import quote
 import re
 
 header = '''
