@@ -1,2 +1,3 @@
 *.swp
 lessons/.ipynb_checkpoints
+.env
