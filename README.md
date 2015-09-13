@@ -13,7 +13,6 @@ El nucleo de este curso ha sido creado mediante [Jupyter (anteriormente conocido
 
 ####Anaconda
 Recomendamos *mucho* que instales la [distribución de Python Anaconda](http://docs.continuum.io/anaconda/install) 
-[Descubre por qué y cómo instalarlo en este webinar](https://www.youtube.com/watch?v=x4xegDME5C0&feature=youtu.be&list=PLGBbVX_WvN7as_DnOGcpkSsUyXB1G_wqb)
 
 Puedes descargar e instalar Anaconda en Windows, OSX y Linux. Para asegurarnos de que tenemos la instalación actualizada con todas las bibliotecas necesarias para seguir este curso, debes de ejecutar lo siguiente en la ventana de comandos (cmd en windows o Bash en Mac/linux) 
 
@@ -26,6 +25,7 @@ y seguidamente
 ```Bash
 conda install numpy scipy sympy
 ```
+Si no te aclaras, puedes ver [este vídeo](https://www.youtube.com/watch?v=x4xegDME5C0&feature=youtu.be&list=PLGBbVX_WvN7as_DnOGcpkSsUyXB1G_wqb).
 
 ####Sin Anaconda
 Si ya tienes Python instalado y no quieres usar Anaconda, puedes instalar las librerías mediante pip con el siguiente comando
