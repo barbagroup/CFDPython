@@ -5,7 +5,7 @@ Hello! Welcome to the **12 steps to Navier-Stokes**. This is a practical module 
 
 ###Installing Python
 
-The core of this mini-course is built around [Jupyter(formerly IPython) notebooks](https://jupyter-notebook.readthedocs.org/en/latest/notebook.html), an interactive computational environment which is run in a web-browser.
+The core of this mini-course is built around [Jupyter(formerly IPython) notebooks](https://jupyter-notebook.readthedocs.org/en/latest/notebook.html), an interactive computational environment that is run in a web-browser.
 
 
 ####Anaconda
