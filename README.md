@@ -15,7 +15,7 @@ You can download and install Anaconda on Windows, OSX and Linux. To ensure that 
 
 ```Bash
 conda update conda
-conda update jupyter
+conda update jupyter numpy sympy scipy matplotlib
 ```
 
 If you prefer Miniconda (a mini version of Anaconda), to install all the necessary libraries to follow this course, run (in a terminal)
@@ -23,7 +23,7 @@ If you prefer Miniconda (a mini version of Anaconda), to install all the necessa
 ```Bash
 conda update conda
 conda install jupyter
-conda install numpy scipy sympy
+conda install numpy scipy sympy matplotlib
 ```
 
 
@@ -37,7 +37,7 @@ pip install jupyter
 Please also make sure that you have the necessary libraries installed by running
 
 ```Bash
-pip install numpy scipy sympy
+pip install numpy scipy sympy matplotlib
 ```
 
 
