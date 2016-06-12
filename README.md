@@ -9,19 +9,23 @@ The core of this mini-course is built around [Jupyter(formerly IPython) notebook
 
 
 ####Anaconda
-We *highly* recommend that you install the [Anaconda Python Distribution](http://docs.continuum.io/anaconda/install) 
+We *highly* recommend that you install the [Anaconda Python Distribution](http://docs.continuum.io/anaconda/install).
 
-You can download and install Anaconda on Windows, OSX and Linux.  To ensure that it's up to date and to install all the necessary libraries to follow this course, run (in a terminal)
+You can download and install Anaconda on Windows, OSX and Linux. To ensure that it's up to date, run (in a terminal)
 
 ```Bash
+conda update conda
 conda update jupyter
 ```
 
-and then
+If you prefer Miniconda (a mini version of Anaconda), to install all the necessary libraries to follow this course, run (in a terminal)
 
 ```Bash
+conda update conda
+conda install jupyter
 conda install numpy scipy sympy
 ```
+
 
 ####Without Anaconda
 If you already have Python installed, you can install the notebooks using pip
