@@ -1,14 +1,14 @@
 
-##Welcome to CFD Python
+## Welcome to CFD Python
 
 Hello! Welcome to the **12 steps to Navier-Stokes**. This is a practical module that is used in the beginning of an interactive Computational Fluid Dynamics (CFD) course taught by [Prof. Lorena Barba](lorenabarba.com) between 2009 and 2013 at Boston University (Prof. Barba since moved to the George Washington University). The course assumes only basic programming knowledge (in any language) and of course some foundation in partial differential equations and fluid mechanics. The practical module was inspired by the ideas of Dr. Rio Yokota, who was a post-doc in Prof. Barba's lab, and has been refined by Prof. Barba and her students over several semesters teaching the course. The course is taught entirely using Python and students who don't know Python just learn as we work through the module.
 
-###Installing Python
+### Installing Python
 
 The core of this mini-course is built around [Jupyter(formerly IPython) notebooks](https://jupyter-notebook.readthedocs.org/en/latest/notebook.html), an interactive computational environment that is run in a web-browser.
 
 
-####Anaconda
+#### Anaconda
 We *highly* recommend that you install the [Anaconda Python Distribution](http://docs.continuum.io/anaconda/install).
 
 You can download and install Anaconda on Windows, OSX and Linux. To ensure that it's up to date, run (in a terminal)
@@ -27,7 +27,7 @@ conda install numpy scipy sympy matplotlib
 ```
 
 
-####Without Anaconda
+#### Without Anaconda
 If you already have Python installed, you can install the notebooks using pip
 
 ```Bash
@@ -41,7 +41,7 @@ pip install numpy scipy sympy matplotlib
 ```
 
 
-###Running a notebook server
+### Running a notebook server
 
 Once jupyter is installed, just open up a terminal and then run 
 
