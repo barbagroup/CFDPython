@@ -28,6 +28,7 @@ Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D
 * [Step 2](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/02_Step_2.ipynb)
 —With the same IC/BCs, _nonlinear_ convection.
 * [CFL Condition](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/03_CFL_Condition.ipynb)
+—Exploring numerical stability and the Courant-Friedrichs-Lewy (CFL) condition.
 * [Step 3](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/04_Step_3.ipynb)
 —With the same IC/BCs, _diffusion_ only.
 * [Step 4](http://nbviewer.ipython.org/urls/github.com/barbagroup/CFDPython/blob/master/lessons/05_Step_4.ipynb)
