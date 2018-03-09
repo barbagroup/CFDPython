@@ -2,7 +2,7 @@
 # CFD Python
 
 **CFD Python**, a.k.a. the **12 steps to Navier-Stokes**, is a practical module for learning the basics of Computational Fluid Dynamics (CFD) by coding solutions to the basic partial differential equations used to describe fluid flow.
-The module was part of a course taught by [Prof. Lorena Barba](lorenabarba.com) between 2009 and 2013 in the Mechanical Engineering department at Boston University (Prof. Barba since moved to the George Washington University). 
+The module was part of a course taught by [Prof. Lorena Barba](http://lorenabarba.com) between 2009 and 2013 in the Mechanical Engineering department at Boston University (Prof. Barba since moved to the George Washington University). 
 
 The module assumes only basic programming knowledge (in any language) and some foundation in partial differential equations and fluid mechanics. The "steps" were inspired by ideas of Dr. Rio Yokota, who was a post-doc in Prof. Barba's lab until 2011, and the lessons were refined by Prof. Barba and her students over several semesters teaching the CFD course. 
 These notebooks were developed in 2013 to teach an intensive course in Mendoza, Argentina.
