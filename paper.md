@@ -38,5 +38,9 @@ Guiding the students through these steps (without skipping any), they learn many
 
 Many university courses in computational fluid dynamics (CFD) follow a similar order of topics. As reflected in various textbooks, the course usually starts with the subject of interpolation, going on to numerical integration of ordinary differential equations, and continuing to standard material on partial differential equations. Students encounter theory of stability, order of convergence, and numerical diffusion, but they often do not gain much experience programming.
 This learning module places emphasis on practical experience with _programming_ the solution to fundamental mathematical models that can represent fluid behavior. 
+It is unique in its approach of taking a beginner in a step-by-step fashion to complete the solution of a fairly complex numerical problem: two-dimensional cavity flow via the Navier-Stokes equations, discretized with finite differences.
+
+The "12 steps to Navier-Stokes" lessons have proved effectiveness. They were used in the classroom as part of a university course for four years in a row (2009- to 2013), guiding several dozen students to develop their Navier-Stokes solutions. 
+Written as a set of Jupyter notebooks, the module was the backbone of an intensive tutorial held as part of the 2013 Latin American Symposium on High-Performance Computing in Mendoza, Argentina (http://ecar2013.hpclatam.org).
 
 
