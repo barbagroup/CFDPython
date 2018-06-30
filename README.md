@@ -25,7 +25,7 @@ Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D
 —For Python novices, this lesson introduces the numerical libraries (NumPy and Matplotlib), Python variables, use of whitespace, and slicing arrays.
 * [Step 1](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/01_Step_1.ipynb)
 —Linear convection with a step-function initial condition (IC) and appropriate boundary conditions (BCs).
-* [Step 2](http://nbviewer.jupyter.org/github.com/barbagroup/CFDPython/blob/master/lessons/02_Step_2.ipynb)
+* [Step 2](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/02_Step_2.ipynb)
 —With the same IC/BCs, _nonlinear_ convection.
 * [CFL Condition](http://nbviewer.jupyter.org/github.com/barbagroup/CFDPython/blob/master/lessons/03_CFL_Condition.ipynb)
 —Exploring numerical stability and the Courant-Friedrichs-Lewy (CFL) condition.
