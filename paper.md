@@ -67,7 +67,7 @@ Based on the experience of the authors after developing the "CFD Python" learnin
 7. Publish openly online
 
 Regarding the inclusion of step-by-step, incremental code exposition, some critics are hesitant with "giving the solution" to the learners, and propose an alternative approach where the learners have to struggle and build their code solutions from scratch.
-When teaching novices, however, several studies show significant learning improvements when using worked examples, versus problem-solving with no guidance. This is called the "worked-example effect," and it is a widely studied cognitive-load effect [@sweller2006worked, @10.1037/edu0000018].
+When teaching novices, however, several studies show significant learning improvements when using worked examples, versus problem-solving with no guidance. This is called the "worked-example effect," and it is a widely studied cognitive-load effect [@sweller2006worked, @chen2015worked].
 It applies particularly when teaching complex material to novice learners, resulting in heavy working-memory load: strong guidance is likely to result in enhanced performance, in this case.
 
 # References
