@@ -18,7 +18,7 @@ affiliations:
   index: 1
 - name: Capital One
   index: 2
-date: 9 March 2018
+date: 30 June 2018
 bibliography: paper.bib
 ---
 
@@ -43,4 +43,10 @@ It is unique in its approach of taking a beginner in a step-by-step fashion to c
 The "12 steps to Navier-Stokes" lessons have proved effectiveness. They were used in the classroom as part of a university course for four years in a row (2009- to 2013), guiding several dozen students to develop their Navier-Stokes solutions. 
 Written as a set of Jupyter notebooks, the module was the backbone of an intensive tutorial held as part of the 2013 Latin American Symposium on High-Performance Computing in Mendoza, Argentina (http://ecar2013.hpclatam.org).
 
+The module is complete and can be easily adopted by other instructors who wish to teach CFD usting a practical approach. 
+An instructor can complement the lessons with brief presentations, class discussions, and readings. 
+For example, after students experiment with different values of the parameters in the first two steps, they will encounter situations when the solution blows up, due to numerical instability.
+As they become perplexed of this behavior, the instructor can use the "bonus" lesson about the stability criterion of Courant-Friedrichs-Lewy (CFL), and complement with a brief lecture on the concepts of consistency, stability and convergence.
 
+We know that instructors around the world have already adopted these lessons: many of them have written us with expressions of gratitude (or with improvement suggestions). The collection was translated to Spanish by a volunteer (Fran Navarro) in 2015 (https://github.com/franktoffel/CFDPython-ES), another user (Manuel Ramsaier) made screencast videos with Matlab versions of the lessons (https://youtu.be/QOeTk6C6dZI), and a professor in Singapore (Claus-Dieter Ohl) incorporates the lessons in his CFD coure (http://cav2012.sg/cdohl/CFD_course/).
+The lessons are often mentioned in posts on sites like [CFD Online](https://www.cfd-online.com/), [Quora](https://www.quora.com), and others
