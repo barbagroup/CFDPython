@@ -40,7 +40,7 @@ Many university courses in computational fluid dynamics (CFD) follow a similar o
 This learning module places emphasis on practical experience with _programming_ the solution to fundamental mathematical models that can represent fluid behavior. 
 It is unique in its approach of taking a beginner in a step-by-step fashion to complete the solution of a fairly complex numerical problem: two-dimensional cavity flow via the Navier-Stokes equations, discretized with finite differences.
 
-The "12 steps to Navier-Stokes" lessons have proved effectiveness. They were used in the classroom as part of a university course for four years in a row (2009- to 2013), guiding several dozen students to develop their Navier-Stokes solutions. 
+The "12 steps to Navier-Stokes" lessons have proved effectiveness. They were used in the classroom as part of a university course for four years in a row (Boston University, 2009 to 2013), guiding several dozen students to develop their Navier-Stokes solutions. 
 Written as a set of Jupyter notebooks, the module was the backbone of an intensive tutorial held as part of the 2013 Latin American Symposium on High-Performance Computing in Mendoza, Argentina (http://ecar2013.hpclatam.org).
 
 The module is complete and can be easily adopted by other instructors who wish to teach CFD usting a practical approach. 
@@ -48,5 +48,24 @@ An instructor can complement the lessons with brief presentations, class discuss
 For example, after students experiment with different values of the parameters in the first two steps, they will encounter situations when the solution blows up, due to numerical instability.
 As they become perplexed of this behavior, the instructor can use the "bonus" lesson about the stability criterion of Courant-Friedrichs-Lewy (CFL), and complement with a brief lecture on the concepts of consistency, stability and convergence.
 
-We know that instructors around the world have already adopted these lessons: many of them have written us with expressions of gratitude (or with improvement suggestions). The collection was translated to Spanish by a volunteer (Fran Navarro) in 2015 (https://github.com/franktoffel/CFDPython-ES), another user (Manuel Ramsaier) made screencast videos with Matlab versions of the lessons (https://youtu.be/QOeTk6C6dZI), and a professor in Singapore (Claus-Dieter Ohl) incorporates the lessons in his CFD coure (http://cav2012.sg/cdohl/CFD_course/).
-The lessons are often mentioned in posts on sites like [CFD Online](https://www.cfd-online.com/), [Quora](https://www.quora.com), and others
+We know that instructors around the world have already adopted these lessons: many of them have written us with expressions of gratitude (or with improvement suggestions). The collection was translated to Spanish by a volunteer (Fran Navarro) in 2015 (https://github.com/franktoffel/CFDPython-ES), another user (Manuel Ramsaier) made screencast videos with Matlab versions of the lessons (https://youtu.be/QOeTk6C6dZI), and a professor in Singapore (Claus-Dieter Ohl) incorporates the lessons in his local CFD course (http://cav2012.sg/cdohl/CFD_course/).
+After Barba left Boston University, the instructor who took over the CFD course there continued to use the module. She writes:
+"The 12 steps are great for building a student's computational toolbox, building her understanding of numerical methods, and providing some benchmark solutions for validating full CFD simulations.  I use these 12 steps in the beginning weeks of my graduate level CFD course every year.  They help lay the perfect foundation for further analysis and use of available CFD tools." (Prof. Sheryl Grace, 2018.)
+
+The lessons are also often mentioned in posts on sites like [CFD Online](https://www.cfd-online.com/), [Quora](https://www.quora.com), and others, and they are cited in a SciPy Conference paper [@ketcheson2014-scipy] and a book [@rossant2018ipython]. A portion of the module was translated to use the Devito package (a finite-difference code-generation tool based on SymPy), as part of their [tutorials](http://www.opesci.org/devito/tutorials.html). Various translations of the lessons to other programming languages can be found online. 
+
+# Notes on instructional design
+
+Based on the experience of the authors after developing the "CFD Python" learning module, and other modules following a similar approach, we adopted this basic design pattern for creating lessons using _computable content_:
+
+1. Break it down into small steps 
+2. Chunk small steps into bigger steps 
+3. Add narrative and connect
+4. Link out to documentation
+5. Interleave easy exercises
+6. Spice with challenge questions/tasks 
+7. Publish openly online
+
+Regarding the inclusion of step-by-step, incremental code exposition, some critics are hesitant with "giving the solution" to the learners, and propose an alternative approach where the learners have to struggle and build their code solutions from scratch.
+When teaching novices, however, several studies show significant learning improvements when using worked examples, versus problem-solving with no guidance. This is called the "worked-example effect," and it is a widely studied cognitive-load effect [@sweller2006worked, @10.1037/edu0000018].
+It applies particularly when teaching complex material to novice learners, resulting in heavy working-memory load: strong guidance is likely to result in enhanced performance, in this case.
