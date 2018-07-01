@@ -52,4 +52,20 @@ We know that instructors around the world have already adopted these lessons: ma
 After Barba left Boston University, the instructor who took over the CFD course there continued to use the module. She writes:
 "The 12 steps are great for building a student's computational toolbox, building her understanding of numerical methods, and providing some benchmark solutions for validating full CFD simulations.  I use these 12 steps in the beginning weeks of my graduate level CFD course every year.  They help lay the perfect foundation for further analysis and use of available CFD tools." (Prof. Sheryl Grace, 2018.)
 
-The lessons are also often mentioned in posts on sites like [CFD Online](https://www.cfd-online.com/), [Quora](https://www.quora.com), and others, and they are cited in a SciPy Conference paper [@ketcheson2014-scipy] and a book [@rossant2018ipython].
+The lessons are also often mentioned in posts on sites like [CFD Online](https://www.cfd-online.com/), [Quora](https://www.quora.com), and others, and they are cited in a SciPy Conference paper [@ketcheson2014-scipy] and a book [@rossant2018ipython]. A portion of the module was translated to use the Devito package (a finite-difference code-generation tool based on SymPy), as part of their [tutorials](http://www.opesci.org/devito/tutorials.html). Various translations of the lessons to other programming languages can be found online. 
+
+# Notes on instructional design
+
+Based on the experience of the authors after developing the "CFD Python" learning module, and other modules following a similar approach, we adopted this basic design pattern for creating lessons using _computable content_:
+
+1. Break it down into small steps 
+2. Chunk small steps into bigger steps 
+3. Add narrative and connect
+4. Link out to documentation
+5. Interleave easy exercises
+6. Spice with challenge questions/tasks 
+7. Publish openly online
+
+Regarding the inclusion of step-by-step, incremental code exposition, some critics are hesitant with "giving the solution" to the learners, and propose an alternative approach where the learners have to struggle and build their code solutions from scratch.
+When teaching novices, however, several studies show significant learning improvements when using worked examples, versus problem-solving with no guidance. This is called the "worked-example effect," and it is a widely studied cognitive-load effect [@sweller2006worked, @10.1037/edu0000018].
+It applies particularly when teaching complex material to novice learners, resulting in heavy working-memory load: strong guidance is likely to result in enhanced performance, in this case.
