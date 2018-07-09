@@ -37,7 +37,7 @@ Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D
 * [Step 5](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/07_Step_5.ipynb)
 —Linear convection in 2D with a square-function IC and appropriate BCs.
 * [Step 6](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/08_Step_6.ipynb)
-——With the same IC/BCs, _nonlinear_ convection in 2D.
+—With the same IC/BCs, _nonlinear_ convection in 2D.
 * [Step 7](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/09_Step_7.ipynb)
 —With the same IC/BCs, _diffusion_ in 2D.
 * [Step 8](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/10_Step_8.ipynb)
