@@ -42,7 +42,7 @@ Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D
 —With the same IC/BCs, _diffusion_ in 2D.
 * [Step 8](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/10_Step_8.ipynb)
 —Burgers’ equation in 2D
-* [Defining Function in Python](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/11_Defining_Function_in_Python.ipynb)
+* [Defining Functions in Python](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/11_Defining_Function_in_Python.ipynb)
 * [Step 9](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/12_Step_9.ipynb)
 —Laplace equation with zero IC and both Neumann and Dirichlet BCs.
 * [Step 10](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/13_Step_10.ipynb)
