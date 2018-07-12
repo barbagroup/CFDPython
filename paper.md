@@ -43,7 +43,7 @@ It is unique in its approach of taking a beginner in a step-by-step fashion to c
 The "12 steps to Navier-Stokes" lessons have proved effectiveness. They were used in the classroom as part of a university course for four years in a row (Boston University, 2009 to 2013), guiding several dozen students to develop their Navier-Stokes solutions. 
 Written as a set of Jupyter notebooks, the module was the backbone of an intensive tutorial held as part of the 2013 Latin American Symposium on High-Performance Computing in Mendoza, Argentina (http://ecar2013.hpclatam.org).
 
-The module is complete and can be easily adopted by other instructors who wish to teach CFD usting a practical approach. 
+The module is complete and can be easily adopted by other instructors who wish to teach CFD using a practical approach. 
 An instructor can complement the lessons with brief presentations, class discussions, and readings. 
 For example, after students experiment with different values of the parameters in the first two steps, they will encounter situations when the solution blows up, due to numerical instability.
 As they become perplexed of this behavior, the instructor can use the "bonus" lesson about the stability criterion of Courant-Friedrichs-Lewy (CFL), and complement with a brief lecture on the concepts of consistency, stability and convergence.
