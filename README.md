@@ -47,9 +47,9 @@ Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D
 —Laplace equation with zero IC and both Neumann and Dirichlet BCs.
 * [Step 10](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/13_Step_10.ipynb)
 —Poisson equation in 2D.
-* [Step 11](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/15_Step_11.ipynb)
+* [Step 11](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/14_Step_11.ipynb)
 —Solves the Navier-Stokes equation for 2D cavity flow.
-* [Step 12](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/16_Step_12.ipynb)
+* [Step 12](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/15_Step_12.ipynb)
 —Solves the Navier-Stokes equation for 2D channel flow.
 
 
