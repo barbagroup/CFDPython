@@ -2,3 +2,5 @@
 CFDPythonCourse/lessons/.ipynb_checkpoints
 .env
 .DS_Store
+src/__pycache__
+
