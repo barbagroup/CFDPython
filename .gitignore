@@ -1,4 +1,4 @@
 *.swp
-lessons/.ipynb_checkpoints
+CFDPythonCourse/lessons/.ipynb_checkpoints
 .env
 .DS_Store
