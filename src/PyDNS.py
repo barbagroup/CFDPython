@@ -1,25 +1,28 @@
+#!venv/bin/python
 def PyDNS():
     import numpy
     from matplotlib import pyplot
     from src import pressure_poisson
 
     ##variable declarations
-    nx = 41
-    ny = 41
+    nx = 64
+    ny = 64
     nt = 10
-    nit = 50
+    nit = 100
     c = 1
-    dx = 2 / (nx - 1)
-    dy = 2 / (ny - 1)
-    x = numpy.linspace(0, 2, nx)
-    y = numpy.linspace(0, 2, ny)
+    Lx=2
+    Ly=2
+    dx = Lx / (nx - 1)
+    dy = Ly / (ny - 1)
+    x = numpy.linspace(0, Lx, nx)
+    y = numpy.linspace(0, Ly, ny)
     X, Y = numpy.meshgrid(x, y)
 
     ##physical variables
     rho = 1
     nu = .1
     F = 1
-    dt = .01
+    dt = .005
 
     # initial conditions
     u = numpy.zeros((ny, nx))
@@ -40,7 +43,9 @@ def PyDNS():
         un = u.copy()
         vn = v.copy()
 
-        p = pressure_poisson.solve(p, rho, dt, dx, dy, u, v, nit)
+        #p = pressure_poisson.solve(p, rho, dt, dx, dy, u, v, nit)
+
+        p = pressure_poisson.solve_spectral(p, rho, dt, dx, dy, u, v, X, Y)
 
         u[1:-1, 1:-1] = (un[1:-1, 1:-1] -
                          un[1:-1, 1:-1] * dt / dx *
@@ -132,7 +137,7 @@ def PyDNS():
     fig = pyplot.figure(figsize=(11, 7), dpi=100)
     pyplot.quiver(X, Y, u, v)
 
-    pyplot.show()
+    pyplot.show(block=True)
 
 if __name__ == "__main__":
     PyDNS()
