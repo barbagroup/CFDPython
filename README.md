@@ -111,6 +111,12 @@ Once Jupyter is installed, open up a terminal and then run
 jupyter notebook
 ```
 
+or if you want to run JupyterLab 
+
+```Bash
+jupyter lab
+```
+
 This will start up a Jupyter session in your browser!
 
 ## How to contribute to CFD Python
