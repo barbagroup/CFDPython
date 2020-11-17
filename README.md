@@ -1,4 +1,14 @@
 
+# Acknowledgement
+
+[Prof. Lorena Barba](http://lorenabarba.com) is acknowledged for the development of the original [CFDPython](https://github.com/barbagroup/CFDPython) course.
+
+Here, some materials are new and some are modified to highlight particular numerical schemes.
+
+-------
+> Launch an interactive session with this module using the Binder service:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ggruszczynski/CFDPython/HEAD)
+
 # CFD Python
 
 > Please cite as: Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python: the 12 steps to Navier-Stokes equations. _Journal of Open Source Education_, **1**(9), 21, https://doi.org/10.21105/jose.00021
@@ -22,11 +32,14 @@ The lessons can also be used for self study.
 In all cases, learners should follow along the worked examples in each lesson by re-typing the code in a fresh Jupyter notebook, maybe taking original notes as they try things out. 
 
 Lessons
+
+Please refer to [CFDPython](https://github.com/barbagroup/CFDPython) for the original course.
+
 -------
 > Launch an interactive session with this module using the Binder service:
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/barbagroup/CFDPython/master)
 
-Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D). Steps 11–12 solve the Navier-Stokes equation in 2D. Three "bonus" notebooks cover the CFL condition for numerical stability, array operations with NumPy, and defining functions in Python.
+<!-- Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D). Steps 11–12 solve the Navier-Stokes equation in 2D. Three "bonus" notebooks cover the CFL condition for numerical stability, array operations with NumPy, and defining functions in Python.
 
 * [Quick Python Intro](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/00_Quick_Python_Intro.ipynb)
 —For Python novices, this lesson introduces the numerical libraries (NumPy and Matplotlib), Python variables, use of whitespace, and slicing arrays.
@@ -59,8 +72,7 @@ Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D
 * [Step 12](http://nbviewer.jupyter.org/github/barbagroup/CFDPython/blob/master/lessons/15_Step_12.ipynb)
 —Solves the Navier-Stokes equation for 2D channel flow.
 
-
-
+ -->
 
 ## Dependencies
 
