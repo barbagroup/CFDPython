@@ -108,7 +108,6 @@ pip install numpy scipy sympy matplotlib
 </details>
 
 
-This will start up a Jupyter session in your browser!
 
 ## How to contribute to CFD Python
 
