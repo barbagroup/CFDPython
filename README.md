@@ -69,7 +69,9 @@ To use these lessons, you need Python 3, and the standard stack of scientific Py
 This mini-course is built as a set of [Jupyter notebooks](https://jupyter-notebook.readthedocs.org/en/latest/notebook.html) containing the written materials and worked-out solutions on Python code. To work with the material, we recommend that you start each lesson with a fresh new notebook, and follow along, typing each line of code (don't copy-and-paste!), and exploring by changing parameters and seeing what happens. 
 
 
-#### Installing via Anaconda
+<details>
+  <summary> Installing via Anaconda </summary>
+  <br>
 We *highly* recommend that you install the [Anaconda Python Distribution](http://docs.continuum.io/anaconda/install). It will make your life so much easier. 
 You can download and install Anaconda on Windows, OSX and Linux. 
 
@@ -87,9 +89,11 @@ conda update conda
 conda install jupyter
 conda install numpy scipy sympy matplotlib
 ```
+</details>
 
-
-#### Without Anaconda
+<details>
+  <summary> Without Anaconda </summary>
+  <br>
 If you already have Python installed on your machine, you can install Jupyter using pip:
 
 ```Bash
@@ -101,15 +105,8 @@ Please also make sure that you have the necessary libraries installed by running
 ```Bash
 pip install numpy scipy sympy matplotlib
 ```
+</details>
 
-
-### Running the notebook server
-
-Once Jupyter is installed, open up a terminal and then run 
-
-```Bash
-jupyter notebook
-```
 
 This will start up a Jupyter session in your browser!
 
